@@ -23,8 +23,8 @@
         <p>Introductions go here</p>
 
         <ul class="link-list bullets">
-            <li><a href="eboard.php">Sport Club Council Executive Board Members</a></li>
-            <li><a href="join.php">Sport Club Supervisors</a></li>
+            <li><a href="#">Sport Club Council Executive Board Members</a></li>
+            <li><a href="#">Sport Club Supervisors</a></li>
         </ul>
     </div>
 
@@ -46,6 +46,6 @@
     </div>
 
 </div>
-
+<?php include 'footer.php'?>
 </body>
 </html>
