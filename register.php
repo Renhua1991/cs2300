@@ -1,8 +1,7 @@
 <?php
+	session_start();
     include_once 'includes/db_connect.php';
     include_once 'includes/functions.php';
-     
-    session_start();
 ?>
 
 <!DOCTYPE html>
@@ -31,7 +30,7 @@
 				</div>
 
 				<div class="left_login">
-					<form action="teams.php" method="post">
+					<form action="register.php" method="post">
 				        Email: <input type="text" name="email"> <br>
 				        Password: <input type="password" name="password"> <br>
 				        <input type="submit" value="Login" name="submit_login">
@@ -39,11 +38,11 @@
 				</div>
 				
 				<div class="right_login">
-					<form action="teams.php" method="post">
+					<form action="register.php" method="post">
 			        	<input type="submit" value="Forget password" name="submit_forget_password">
 			        </form>
 
-			        <form action="teams.php" method="post">
+			        <form action="register.php" method="post">
 			        	<input type="submit" value="Register a new user!" name="submit_register">
 			        </form>	
 				</div>
@@ -64,7 +63,7 @@
 	        //login successfully
 	        $bool = login($email, $password, $mysqli);
 			if($bool == true){
-				header('Location:teams.php');
+				header('Location:index.php');
 
 			//failed to login
 			}else{
@@ -95,7 +94,7 @@
 		print("<p>Welcome  " .$find_username . "</p>");
 	?>
 			
-			<form action="teams.php" method="post">
+			<form action="register.php" method="post">
 				<input type="submit" value="Logout" name="submit_logout">
 			</form>
 		</div>
@@ -111,6 +110,12 @@
 
 
 
+
+
+
+
+
+	
 	<div class="nav">
 	    <ul>
 	      	<li><a href="../Downloads/finalproject/index.php">ABOUT US</a></li>
@@ -120,12 +125,30 @@
 	    </ul>
 	</div>
 
+
 	<div class="container">
-		<p>This is Teams page.</p>
+		<form action="register.php" method="post">
+			Email: <input type="text" name="email_register"> <br>
+			User Name: <input type="text" name="username_register"> <br>
+	        Password: <input type="password" name="password_register"> <br>
+	        <input type="submit" value="Submit" name="submit_register">
+		</form>
 	</div>
 
 
+	<?php  
+		//register
+		if(isset($_POST['email_register']) && isset($_POST['username_register']) && isset($_POST['password_register']) ){
+			//get information to register
+			$email_register = (isset($_POST['email_register']) ? $_POST['email_register']: null);
+			$username_register = (isset($_POST['username_register']) ? $_POST['username_register']: null);
+	        $password_register = (isset($_POST['password_register']) ? $_POST['password_register']: null);
+	        $hashed_password_register = hash("sha256", $password_register);
 
+	        register($email_register, $username_register, $hashed_password_register);
+
+		}
+	?>
 
 </body>
 </html>

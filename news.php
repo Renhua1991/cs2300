@@ -15,6 +15,7 @@
 </head>
 <body>
 
+
 	<!-- login part -->
 	<?php  
 	//no session
@@ -31,7 +32,7 @@
 				</div>
 
 				<div class="left_login">
-					<form action="teams.php" method="post">
+					<form action="news.php" method="post">
 				        Email: <input type="text" name="email"> <br>
 				        Password: <input type="password" name="password"> <br>
 				        <input type="submit" value="Login" name="submit_login">
@@ -39,11 +40,11 @@
 				</div>
 				
 				<div class="right_login">
-					<form action="teams.php" method="post">
+					<form action="news.php" method="post">
 			        	<input type="submit" value="Forget password" name="submit_forget_password">
 			        </form>
 
-			        <form action="teams.php" method="post">
+			        <form action="news.php" method="post">
 			        	<input type="submit" value="Register a new user!" name="submit_register">
 			        </form>	
 				</div>
@@ -64,7 +65,7 @@
 	        //login successfully
 	        $bool = login($email, $password, $mysqli);
 			if($bool == true){
-				header('Location:teams.php');
+				header('Location:news.php');
 
 			//failed to login
 			}else{
@@ -95,7 +96,7 @@
 		print("<p>Welcome  " .$find_username . "</p>");
 	?>
 			
-			<form action="teams.php" method="post">
+			<form action="news.php" method="post">
 				<input type="submit" value="Logout" name="submit_logout">
 			</form>
 		</div>
@@ -109,8 +110,6 @@
 	?>
 
 
-
-
 	<div class="nav">
 	    <ul>
 	      	<li><a href="../Downloads/finalproject/index.php">ABOUT US</a></li>
@@ -121,8 +120,10 @@
 	</div>
 
 	<div class="container">
-		<p>This is Teams page.</p>
+		<p>This is News page.</p>
+		
 	</div>
+
 
 
 
