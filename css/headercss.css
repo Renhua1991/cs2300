@@ -14,14 +14,14 @@ header h1{
     list-style-type: none;
     text-align: center;
     margin: 0;
-    padding: 50px 0px 30 0px;
+
     overflow: hidden;
     -webkit-padding-start: 0px
 width: 100%;
     background-color:black ;
 }
 
-header a:link, header a:visited {
+header .menu-item:link, header .menu-item:visited {
     display: block;
     font-weight: bold;
     background-color:black ;
@@ -32,7 +32,7 @@ header a:link, header a:visited {
     padding:15px;
 }
 
-header a:hover, header a:active {
+header .menu-item:hover, header .menu-item:active {
     background-color: white;
     color:red;
 

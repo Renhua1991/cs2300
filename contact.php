@@ -1,4 +1,4 @@
-<?php include 'header.php'?>
+<?php include 'menu.php'?>
 <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
     <div class="row">
         <label for="name">Your name:</label><br />
