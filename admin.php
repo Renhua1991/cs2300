@@ -1,5 +1,11 @@
-<?php include 'menu.php'?>
-<!-- login part -->
+<?php
+    include_once 'includes/db_connect.php';
+    include_once 'includes/functions.php';
+     
+    session_start(); 
+    include 'menu.php'
+?>
+
 <?php
 //no session
 if(!isset($_SESSION['logged_user'])){
@@ -79,7 +85,7 @@ if(!isset($_SESSION['logged_user'])){
         print("<p>Welcome  " .$find_username . "</p>");
         ?>
 
-        <form action="index.php" method="post">
+        <form action="admin.php" method="post">
             <input type="submit" value="Logout" name="submit_logout">
         </form>
     </div>
