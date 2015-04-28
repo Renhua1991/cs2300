@@ -31,7 +31,7 @@
 			<div class="user_login">
 
 				<div class="left_most">
-					<p>Cornell Sports Club</p>
+					<p>Cornell Sports Club Council</p>
 				</div>
 
 				<div class="left_login">
