@@ -8,8 +8,8 @@
 <nav id="navigation" class="site-navigation" role="navigation">
     <ul class="menu">
         <li><a href="index.php"><img src="img/logo.png" alt="" id="logo" align="middle"></a></li>
-        <li class="menu-item"><a class="menu-item" href="#">About Us</a></li>
-        <li class="menu-item"><a class="menu-item" href="#">Teams</a>
+        <li class="menu-item"><a class="menu-item" href="about.php">About Us</a></li>
+        <li class="menu-item"><a class="menu-item" href="teams.php">Teams</a>
             <div class="dropdown">
                 <ul>
                     <li class="sub-menu"><a class="menu-item" href="#">Team 1</a></li>
