@@ -7,13 +7,17 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="../Downloads/finalproject/css/style.css">
-  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
-  <script src="js/javascript.js"></script>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Cornell Sports Club Council</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <link href='css/headercss.css' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
+    <script src="js/javascript.js"></script>
 </head>
 <body>
+    <?php include 'header.php'?>
 
 	<!-- login part -->
 	<?php  
@@ -108,17 +112,6 @@
 	}
 	?>
 
-
-
-
-	<div class="nav">
-	    <ul>
-	      	<li><a href="../Downloads/finalproject/index.php">ABOUT US</a></li>
-		    <li><a href="teams.php">TEAMS</a></li>
-		    <li><a href="schedule.php">EVENTS</a></li>
-		    <li><a href="news.php">CONTACT</a></li>
-	    </ul>
-	</div>
 
 	<div class="container">
 		<p>This is Teams page.</p>
