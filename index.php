@@ -94,6 +94,39 @@
     ?>
 
     <?php  
+        if(isset($_POST['add_reply'])){
+            $reply = $_POST['reply'];
+           
+            if($reply){
+                $comment_id = $_POST['hidden_id'];
+                $date = date('Y-m-d H:i:s');
+                $sql = "INSERT INTO reply VALUES (null, '$reply', '$date', '$_SESSION[email]', '$_SESSION[logged_user]')";
+                $mysqli->query($sql);
+                // if ($mysqli->query($sql) === TRUE) {
+                //     echo "New record created successfully";
+                // } else {
+                //     echo "Error: " . $sql . "<br>" . $mysqli->error;
+                // }
+
+                $query1 = "SELECT id FROM reply WHERE time = '$date'";
+                $reply_id = $mysqli->query($query1);
+                if($reply_id->num_rows == 1){
+                    while($id = $reply_id->fetch_row()){
+                        $new_reply_id = $id[0];
+                    }
+                }
+                
+                $query = "INSERT INTO comment_reply VALUES ('$comment_id', '$new_reply_id')";
+                $mysqli->query($query);
+
+            }else{
+                echo "empty reply";
+            }
+           
+        }
+    ?>
+
+    <?php  
         $query = "SELECT * FROM comments";
         $result = $mysqli->query($query);
         $comment_count = 1;
@@ -143,38 +176,6 @@
         print("</div>");
     ?>
 
-    <?php  
-        if(isset($_POST['add_reply'])){
-            $reply = $_POST['reply'];
-           
-            if($reply){
-                $comment_id = $_POST['hidden_id'];
-                $date = date('Y-m-d H:i:s');
-                $sql = "INSERT INTO reply VALUES (null, '$reply', '$date', '$_SESSION[email]', '$_SESSION[logged_user]')";
-                $mysqli->query($sql);
-                // if ($mysqli->query($sql) === TRUE) {
-                //     echo "New record created successfully";
-                // } else {
-                //     echo "Error: " . $sql . "<br>" . $mysqli->error;
-                // }
-
-                $query1 = "SELECT id FROM reply WHERE time = '$date'";
-                $reply_id = $mysqli->query($query1);
-                if($reply_id->num_rows == 1){
-                    while($id = $reply_id->fetch_row()){
-                        $new_reply_id = $id[0];
-                    }
-                }
-                
-                $query = "INSERT INTO comment_reply VALUES ('$comment_id', '$new_reply_id')";
-                $mysqli->query($query);
-
-            }else{
-                echo "empty reply";
-            }
-           
-        }
-    ?>
 
 </div>
 <?php 
