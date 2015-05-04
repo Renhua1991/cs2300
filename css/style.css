@@ -68,3 +68,27 @@ footer{
 .forget_password {
     text-align: center;
 }
+
+.detail_comment {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    text-align: center;
+    border-style:solid; 
+    border-color:#FF0000;
+}
+
+.add_comment {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.detail_reply {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    text-align: center;
+    border-style:solid; 
+    border-color:#0000FF;
+}

@@ -41,6 +41,7 @@
 	                    //$username = preg_replace("/[^a-zA-Z0-9_\-]+/", "", $username);
 	                    $_SESSION['username'] = $username;
 	                    $_SESSION['logged_user'] = $username;
+	                    $_SESSION['email'] = $email;
 	                    $_SESSION['login_string'] = hash('sha512', $password . $user_browser);
 
 	                    echo "<p>======</p>";

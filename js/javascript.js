@@ -13,5 +13,13 @@ $(document).ready(function(){
     });
 
 
-
 });
+
+function add_reply(btn){
+    //console.log("addCondition");
+    //$(btn).parent().parent().value();
+    $id = btn.id;
+    console.log($id);
+    $(btn).parent().append("<div class=reply><form action=index.php method=POST><input type=hidden name=hidden_id value="+ $id + "><textarea rows=4 cols=50 name=reply></textarea><input type=submit name=add_reply value=reply></form></div>");
+    $(btn).attr('disabled','disabled');
+}

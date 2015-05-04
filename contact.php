@@ -1,4 +1,6 @@
-<?php include 'menu.php'?>
+<?php 
+    include 'menu.php'
+?>
 <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
     <div class="row">
         <label for="name">Your name:</label><br />
@@ -14,4 +16,6 @@
     </div>
     <input id="submit_button" type="submit" value="Send email" />
 </form>
-<?php include 'footer.php'?>
+<?php 
+    include 'footer.php'
+?>
