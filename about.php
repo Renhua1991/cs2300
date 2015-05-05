@@ -13,10 +13,10 @@
 
 <div id="content">
 
-    <?php include 'header.php'?>
+    <?php include 'menu.php'?>
     <div class="content-main-body">
     <div class="content-main">
-
+        <br><br><br><br>
     <div class="content-main-links">
         <a href=""><img src="http://assets.sdes.ucf.edu/images/icons/facebook.png" alt="Facebook" title="Facebook"></a>
     </div>

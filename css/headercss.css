@@ -42,6 +42,7 @@ header .menu-item:hover, header .menu-item:active {
     top: -5px;
     left: 32px;
     width:14%;
+    z-index: 999;
 }
 
 header h1{

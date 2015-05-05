@@ -90,5 +90,12 @@ footer{
     margin-bottom: 15px;
     text-align: center;
     border-style:solid; 
-    border-color:#0000FF;
+    border-color: #000000;
+}
+#panel-member, #panel-supervisor, #panel-detail-1, #panel-detail-2 {
+    display: none;
+}
+#contact{
+    width: 50%;
+    margin: 10% auto;
 }

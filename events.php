@@ -13,10 +13,10 @@
 
 <div id="content">
 
-    <?php include 'header.php'?>
+    <?php include 'menu.php'?>
     <div class="content-main-body">
     <div class="content-main">
-    <p>Upcoming Events</p>
+        <iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=1pQjxQJL93DZH_Xc69XfMWSde9yiGLHicy-rr3dVmRn0&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
 
     </div>
 

@@ -1,21 +1,42 @@
 <?php 
     include 'menu.php'
 ?>
-<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-    <div class="row">
-        <label for="name">Your name:</label><br />
-        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+<div id="contact">
+    <h1>CONTACT US</h1>
+    <?php
+    //if "email" variable is filled out, send email
+    if (isset($_REQUEST['email']))  {
+
+        //Email information
+        $admin_email = "mz234@cornell.edu";
+        $email = $_REQUEST['email'];
+        $subject = $_REQUEST['subject'];
+        $comment = $_REQUEST['comment'];
+
+        //send email
+        mail($admin_email, "$subject", $comment, "From:" . $email);
+
+        //Email response
+        echo "Thank you for contacting us!";
+    }
+
+    //if "email" variable is not filled out, display the form
+    else  {
+        ?>
+
+        <form method="post">
+            Email: <input name="email" type="text" required=""/><br />
+            Name: <input name="subject" type="text" /><br />
+            Message:<br />
+            <textarea name="comment" rows="15" cols="40"></textarea><br />
+            <input type="submit" value="Submit" />
+        </form>
+
+    <?php
+    }
+    ?>
+
     </div>
-    <div class="row">
-        <label for="email">Your email:</label><br />
-        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-    </div>
-    <div class="row">
-        <label for="message">Your message:</label><br />
-        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-    </div>
-    <input id="submit_button" type="submit" value="Send email" />
-</form>
 <?php 
     include 'footer.php'
 ?>

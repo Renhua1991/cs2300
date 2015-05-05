@@ -35,8 +35,18 @@
         <p>Introductions go here</p>
 
         <ul class="link-list bullets">
-            <li><a href="#">Sport Club Council Executive Board Members</a></li>
-            <li><a href="#">Sport Club Supervisors</a></li>
+            <li><a href="javascript:void(0)" onclick="$('#panel-member').slideToggle('slow');">Sport Club Council Executive Board Members</a></li>
+            <li id="panel-member"><ul>
+                    <li>Member 1</li>
+                    <li>Member 2</li>
+                    <li>Member 3</li>
+            </ul></li>
+            <li><a href="javascript:void(0)" onclick="$('#panel-supervisor').slideToggle('slow');">Sport Club Supervisors</a></li>
+            <li id="panel-supervisor"><ul>
+                    <li>Supervisor 1</li>
+                    <li>Supervisor 2</li>
+                    <li>Supervisor 3</li>
+                </ul></li>
         </ul>
     </div>
 
@@ -47,7 +57,12 @@
 
     <div class="right">
     <h2>Highlights</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+        <ul class="link-list bullets">
+            <li><a href="javascript:void(0)" onclick="$('#panel-detail-1').slideToggle('slow');">Highlight 1</a></li>
+            <li id="panel-detail-1"> Details</li>
+            <li><a href="javascript:void(0)" onclick="$('#panel-detail-2').slideToggle('slow');">Highlight 2</a></li>
+            <li id="panel-detail-2"> Details</li>
+        </ul>
     </div>
     </div>
 
