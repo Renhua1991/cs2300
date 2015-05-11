@@ -37,31 +37,36 @@
         <ul class="link-list bullets">
             <li><a href="javascript:void(0)" onclick="$('#panel-member').slideToggle('slow');">Sport Club Council Executive Board Members</a></li>
             <li id="panel-member"><ul>
-                    <li>Member 1</li>
-                    <li>Member 2</li>
-                    <li>Member 3</li>
+                    <li>Alexa Goldstein, President</li>
+                    <li>Cody Bertolo, VP of Communications</li>
+                    <li>Zachary Landzberg, Treasurer</li>
             </ul></li>
-            <li><a href="javascript:void(0)" onclick="$('#panel-supervisor').slideToggle('slow');">Sport Club Supervisors</a></li>
+            <li><a href="javascript:void(0)" onclick="$('#panel-supervisor').slideToggle('slow');">Sport Club Teams</a></li>
             <li id="panel-supervisor"><ul>
-                    <li>Supervisor 1</li>
-                    <li>Supervisor 2</li>
-                    <li>Supervisor 3</li>
+                    <li>Archery</li>
+                    <li>Baseball</li>
+                    <li>Basketball</li>
+                    <li>Bowling</li>
+                    <li>Cheerleading</li>
+                    <li>Equestriann</li>
+                    <li>Field Hockey</li>
+                    <li>Fencing</li>
                 </ul></li>
         </ul>
     </div>
 
         <div class="left">
             <h2>Schedule</h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+            Individual team's schedules can be found on specific team pages by clicking on the teams tab!
         </div>
 
     <div class="right">
     <h2>Highlights</h2>
         <ul class="link-list bullets">
             <li><a href="javascript:void(0)" onclick="$('#panel-detail-1').slideToggle('slow');">Highlight 1</a></li>
-            <li id="panel-detail-1"> Details</li>
+            <li id="panel-detail-1"> Cornell Club Basketball has won the 2015 National Championship!</li>
             <li><a href="javascript:void(0)" onclick="$('#panel-detail-2').slideToggle('slow');">Highlight 2</a></li>
-            <li id="panel-detail-2"> Details</li>
+            <li id="panel-detail-2"> The Cornell Fencing team finished in 2nd place overall last weekend.</li>
         </ul>
     </div>
     </div>
