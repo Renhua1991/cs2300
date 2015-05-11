@@ -1,7 +1,11 @@
+
+
+<head lang="en">
 <link href='css/headercss.css' rel='stylesheet' type='text/css'>
 <link href='css/style.css' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 <script src="js/javascript.js"></script>
+    </head>
 <header>
     <div class="fix">
 

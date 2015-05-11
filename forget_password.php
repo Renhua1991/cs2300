@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Forgot Password</title>
   <link rel="stylesheet" type="text/css" href="../Downloads/finalproject/css/style.css">
   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
 </head>

@@ -1,15 +1,7 @@
 $(document).ready(function(){
     var iScrollPos = 0;
 
-    $(window).scroll(function () {
-        var iCurScrollPos = $(this).scrollTop();
-        if (iCurScrollPos > iScrollPos+20) {
-            $("#logo").animate({top: '-113px'}, "fast");
-        } else {
-            $("#logo").animate({top: '-5px'}, "fast");}
 
-        iScrollPos = iCurScrollPos;
-    });
 
 	$(window).bind('scroll', function() {
 

@@ -5,7 +5,7 @@
     session_start(); 
     include 'menu.php'
 ?>
-
+<!DOCTYPE html>
 <?php
 //no session
 if(!isset($_SESSION['logged_user'])){
