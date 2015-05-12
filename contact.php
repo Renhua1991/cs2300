@@ -35,9 +35,6 @@
 
         <form method="post" class="cd-form floating-labels">
 
-            <div class="error-message">
-                <p>Please enter a valid email address</p>
-            </div>
 
             <div class="icon">
                 <label class="cd-label" for="cd-name">Name</label>
