@@ -18,7 +18,7 @@
     <div class="content-main">
         <br><br><br><br>
 
-    <div><h1>Welcome!</h1>
+    <div><h1>Welcome!</h1></div>
 
 
     <div class="upperleft">
@@ -33,7 +33,7 @@
 
     <div class="right">
     <h2>Additional Info</h2>
-        If you are interested in joining the Cornell Sports Club Council, visit our <a href="contact.php>contact</a> page
+        If you are interested in joining the Cornell Sports Club Council, visit our contact page.
     </div>
     </div>
 
