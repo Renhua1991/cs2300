@@ -25,10 +25,8 @@
     <div class="content-main-body">
     <div class="content-main">
 
-    <div class="content-main-links">
-        <a href=""><img src="http://assets.sdes.ucf.edu/images/icons/facebook.png" alt="Facebook" title="Facebook"></a>
-    </div>
-    <div><h1>Welcome!</h1>
+
+    <div><h1>Welcome!</h1></div>
 
 
     <div class="upperleft">
