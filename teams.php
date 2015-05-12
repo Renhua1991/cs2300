@@ -22,9 +22,9 @@
     ?>
 
 	<div class="navcontainer">
-		<a href="#Soccer" class="button hvr-shutter-out-vertical">Women's Soccer</a>
-        <a href="#Fencing" class="button hvr-shutter-out-vertical">Men's Fencing</a>
-        <a href="#Baseball" class="button hvr-shutter-out-vertical">Baseball</a>
+		<a href="#team1" class="button hvr-shutter-out-vertical">Women's Soccer</a>
+        <a href="#team2" class="button hvr-shutter-out-vertical">Men's Fencing</a>
+        <a href="#team3" class="button hvr-shutter-out-vertical">Baseball</a>
 	</div>
 <div id="main">
 <div id="team1" class="team">
