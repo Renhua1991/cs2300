@@ -22,27 +22,34 @@
     ?>
 
 	<div class="navcontainer">
-		<a href="#team1" class="button hvr-shutter-out-vertical">Team 1</a>
-        <a href="#team2" class="button hvr-shutter-out-vertical">Team 2</a>
-        <a href="#team3" class="button hvr-shutter-out-vertical">Team 3</a>
+		<a href="#Soccer" class="button hvr-shutter-out-vertical">Team 1</a>
+        <a href="#Fencing" class="button hvr-shutter-out-vertical">Team 2</a>
+        <a href="#Lacrosse" class="button hvr-shutter-out-vertical">Team 3</a>
 	</div>
 <div id="main">
 <div id="team1" class="team">
     <a name="team1"></a>
-    <h1>Team 1</h1>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    <h1>Women's Soccer</h1>
+    Cornell Women's Club Soccer was started in 2000-2001 by an excited bunch of girls looking to play 
+    competitive soccer without the time commitment required of a varsity team. The first tryouts were hosted for the 2001-2002 season. 
+    Since the beginning, our team has continued to improve and has had a lot of fun along the way.
 
 </div>
     <div id="team2" class="team">
         <a name="team2"></a>
-        <h1>Team 2</h1>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+        <h1>Men's Fencing </h1>
+        The Men’s Fencing Team is a competitive traveling club team, and the non-varsity counterpart to the women’s varsity fencing team at Cornell. We practice in a new, state of the art facility, the Andrew P. Stifel Fencing Salle. It was donated by former Men’s Foil Captain Andrew P. Stifel ‘91 and former Women’s fencer Nina Farouk ‘97. The Men’s Team has a full schedule of individual and team meets. The Fall schedule includes two open tournaments, the Temple Open and the Garrett Open at Penn State. 
+        In addition, we customarily fence our first regular season MACFA meet in the Fall Semester, as well as any other invitationals that are scheduled. 
+        In the Spring, we fence the remaining MACFA meets, the MACFA championship event, and the USACFC Club Championships (a tournament of club programs from across the country). 
+        Club members also commonly attend USFA events including NACs, Junior Olympics and other local and regional events.
 
     </div>
     <div id="team3" class="team">
         <a name="team3"></a>
-        <h1>Team 3</h1>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+        <h1>Men's Baseball</h1>
+        Cornell Club Baseball is about having a good time, meeting a lot of great guys, and, of course, playing baseball. The team practices two to three times a week, and plays competitive games on weekends. 
+        A member of NCBA's North-Atlantic West division, the team competes every week for a division title and a chance to advance to the National Club Baseball World Series. 
+
 
     </div>
 
