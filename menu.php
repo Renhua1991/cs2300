@@ -18,7 +18,7 @@
 
         <li class="menu-item"><a class="menu-item" href="events.php">Events</a></li>
         <li class="menu-item"><a class="menu-item" href="contact.php">Contact</a></li>
-        <li class="menu-item"><a class="menu-item" href="admin.php">Admin</a></li>
+        <li class="menu-item"><a class="menu-item" href="admin.php">Log-In</a></li>
         <li><form id="search" method="post" action="header.php">
                 <input type="search" name="filter" results="5" value="" />
                 <input type="submit" value="Search" />
