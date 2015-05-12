@@ -19,7 +19,7 @@
         <br><br><br><br>
 
     <div><h1>Welcome!</h1></div>
-
+    Welcome to the new Cornell Sports Club Council Website!
 
     <div class="upperleft">
         <p>Introductions go here</p>
