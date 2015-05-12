@@ -28,7 +28,7 @@
 
         <div class="left">
             <h2>History</h2>
-            <p>The Cornell Club Sports Council (CSC) acts as a liaison between the individual club sports teams on campus and the university administration. The CSC works to improve facilities, funding, and resources for club sports while elevating club sports/' presence on campus.</p>
+            <p>The Cornell Club Sports Council (CSC) acts as a liaison between the individual club sports teams on campus and the university administration. The CSC works to improve facilities, funding, and resources for club sports while elevating club sports\' presence on campus.</p>
         </div>
 
     <div class="right">
