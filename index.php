@@ -85,7 +85,7 @@
             print("</div>");
         } else{
             print("<div class=add_comment>");
-            print("<h3>Only login user can post a comment.</h3>");
+            print("<h3>Only a logged-in user can post a comment. <a href="admin.php">Sign in here</a>.</h3>");
             print("</div>");
         }
     ?>
