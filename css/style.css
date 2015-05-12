@@ -3,7 +3,9 @@ body{
     margin: 0;
     font-family: 'Raleway';
 }
-
+.link-list{
+    list-style-type: none;
+}
 .content-main-body {
     width: 960px;
     background: none;

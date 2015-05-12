@@ -96,7 +96,7 @@ Form
 .cd-form textarea:focus,
 .cd-form select:focus {
     outline: none;
-    border-color: #2c97de;
+    border-color: #f40b17;
     box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
 }
 .cd-form .cd-select {
@@ -143,87 +143,7 @@ Form
     margin: 0 26px 16px 0;
     float: left;
 }
-.cd-form input[type=radio],
-.cd-form input[type=checkbox] {
-    /* hide original check and radio buttons */
-    position: absolute;
-    left: 0;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    margin: 0;
-    padding: 0;
-    opacity: 0;
-    z-index: 2;
-}
-.cd-form input[type="radio"] + label,
-.cd-form input[type="checkbox"] + label {
-    padding-left: 24px;
-}
-.cd-form input[type="radio"] + label::before,
-.cd-form input[type="radio"] + label::after,
-.cd-form input[type="checkbox"] + label::before,
-.cd-form input[type="checkbox"] + label::after {
-    /* custom radio and check boxes */
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    margin-top: -8px;
-    width: 16px;
-    height: 16px;
-}
-.cd-form input[type="radio"] + label::before,
-.cd-form input[type="checkbox"] + label::before {
-    border: 1px solid #cfd9db;
-    background: #ffffff;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
-}
-.cd-form input[type="radio"] + label::before,
-.cd-form input[type="radio"] + label::after {
-    border-radius: 50%;
-}
-.cd-form input[type="checkbox"] + label::before,
-.cd-form input[type="checkbox"] + label::after {
-    border-radius: .25em;
-}
-.cd-form input[type="radio"] + label::after,
-.cd-form input[type="checkbox"] + label::after {
-    background-color: #2c97de;
-    background-position: center center;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 5px rgba(44, 151, 222, 0.4);
-    display: none;
-}
-.cd-form input[type="radio"] + label::after {
-    /* custom image for radio button */
-    background-image: url("../img/cd-icon-radio.svg");
-}
-.cd-form input[type="checkbox"] + label::after {
-    /* custom image for checkbox */
-    background-image: url("../img/cd-icon-check.svg");
-}
-.cd-form input[type="radio"]:focus + label::before,
-.cd-form input[type="checkbox"]:focus + label::before {
-    /* add focus effect for radio and check buttons */
-    box-shadow: 0 0 5px rgba(44, 151, 222, 0.6);
-}
-.cd-form input[type="radio"]:checked + label::after,
-.cd-form input[type="checkbox"]:checked + label::after {
-    display: block;
-}
-.cd-form input[type="radio"]:checked + label::before,
-.cd-form input[type="radio"]:checked + label::after,
-.cd-form input[type="checkbox"]:checked + label::before,
-.cd-form input[type="checkbox"]:checked + label::after {
-    -webkit-animation: cd-bounce 0.3s;
-    -moz-animation: cd-bounce 0.3s;
-    animation: cd-bounce 0.3s;
-}
+
 .cd-form textarea {
     min-height: 200px;
     resize: vertical;
@@ -232,7 +152,7 @@ Form
 .cd-form input[type="submit"] {
     /* button style */
     border: none;
-    background: #2c97de;
+    background: #f40b17;
     border-radius: .25em;
     padding: 16px 20px;
     color: #ffffff;
@@ -248,7 +168,7 @@ Form
     appearance: none;
 }
 .no-touch .cd-form input[type="submit"]:hover {
-    background: #42a2e1;
+    background: #000000;
 }
 .cd-form input[type="submit"]:focus {
     outline: none;
@@ -261,9 +181,7 @@ Form
     -o-transform: scale(0.9);
     transform: scale(0.9);
 }
-.cd-form [required] {
-    background: url("../img/cd-required.svg") no-repeat top right;
-}
+
 .cd-form .error-message p {
     background: #e94b35;
     color: #ffffff;
@@ -274,9 +192,7 @@ Form
     border-radius: .25em;
     padding: 16px;
 }
-.cd-form .error {
-    border-color: #e94b35 !important;
-}
+
 @media only screen and (min-width: 600px) {
     .cd-form div {
         /* form element wrapper */
@@ -329,41 +245,6 @@ Form
         -o-transform: scale(0.8);
         transform: scale(0.8);
     }
-}
-/* -------------------------------- 
-
-Custom icons
-
--------------------------------- */
-.cd-form .icon input, .cd-form .icon select, .cd-form .icon textarea {
-    padding-left: 54px !important;
-}
-.cd-form .user {
-    background: url("../img/cd-icon-user.svg") no-repeat 16px center;
-}
-.cd-form [required].user {
-    background: url("../img/cd-icon-user.svg") no-repeat 16px center, url("../img/cd-required.svg") no-repeat top right;
-}
-.cd-form .company {
-    background: url("../img/cd-icon-company.svg") no-repeat 16px center;
-}
-.cd-form [required].company {
-    background: url("../img/cd-icon-company.svg") no-repeat 16px center, url("../img/cd-required.svg") no-repeat top right;
-}
-.cd-form .email {
-    background: url("../img/cd-icon-email.svg") no-repeat 16px center;
-}
-.cd-form [required].email {
-    background: url("../img/cd-icon-email.svg") no-repeat 16px center, url("../img/cd-required.svg") no-repeat top right;
-}
-.cd-form .budget {
-    background: url("../img/cd-icon-budget.svg") no-repeat 16px center;
-}
-.cd-form .message {
-    background: url("../img/cd-icon-message.svg") no-repeat 16px 16px;
-}
-.cd-form [required].message {
-    background: url("../img/cd-icon-message.svg") no-repeat 16px 16px, url("../img/cd-required.svg") no-repeat top right;
 }
 
 /* -------------------------------- 

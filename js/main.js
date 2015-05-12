@@ -1,3 +1,5 @@
+/**adapted from Codrops*/
+
 jQuery(document).ready(function($){
 	if( $('.floating-labels').length > 0 ) floatLabels();
 
@@ -5,7 +7,6 @@ jQuery(document).ready(function($){
 		var inputFields = $('.floating-labels .cd-label').next();
 		inputFields.each(function(){
 			var singleInput = $(this);
-			//check if user is filling one of the form fields 
 			checkVal(singleInput);
 			singleInput.on('change keyup', function(){
 				checkVal(singleInput);	
